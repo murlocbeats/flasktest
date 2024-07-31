@@ -72,7 +72,7 @@ def place_order(coin='BTCUSDT_UMCBL', size='0.001', side='open_long', presetTake
     response = requests.post(url, headers=headers, data=body)
 
     #send to telegram
-    send_message('place_order: ' + '\n' + 'status_code: ' + str(response.status_code) + '\n' + 'msg: ' + response.json()['msg'])
+    #send_message('place_order: ' + '\n' + 'status_code: ' + str(response.status_code) + '\n' + 'msg: ' + response.json()['msg'])
 
     # Print the response
     print(response.status_code)
