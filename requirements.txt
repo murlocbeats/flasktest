@@ -1,6 +1,5 @@
 flask
 hmac
-base64
 requests
 time
 json
