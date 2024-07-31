@@ -40,7 +40,7 @@ def get_single_account():
 
 @app.route('/')
 def home():
-    return get_single_account()
+    get_single_account()
 
 if __name__ == '__main__':
     app.run(debug=True)
