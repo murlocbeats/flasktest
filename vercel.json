@@ -1,7 +1,8 @@
 {
     "builds": [
       { "src": "app.py", "use": "@vercel/python" },
-      { "src": "trader.py", "use": "@vercel/python" }
+      { "src": "trader.py", "use": "@vercel/python" },
+      { "src": "telegram_sender.py", "use": "@vercel/python" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "app.py" }
