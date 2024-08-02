@@ -18,7 +18,7 @@ def home():
     return str(timestamp)
 
 @app.route('/sign')
-get_single_account()
+    get_single_account()
 
 if __name__ == '__main__':
     app.run(debug=True)
