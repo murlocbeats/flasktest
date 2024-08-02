@@ -1,5 +1,4 @@
 from flask import Flask
-from trader import *
 
 app = Flask(__name__)
 
