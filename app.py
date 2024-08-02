@@ -7,7 +7,7 @@ import time
 import json
 import random
 import string
-from trader import *
+import trader
 
 app = Flask(__name__)
 
