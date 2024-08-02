@@ -7,10 +7,9 @@ import time
 import json
 import random
 import string
+from trader import *
 
 app = Flask(__name__)
-
-import trader
 
 # Your API key and secret
 API_KEY = 'cc_59c730b0f45a7f8f9d7a43483cf09cb1'
