@@ -28,6 +28,3 @@ if __name__ == '__main__':
     app.run(debug=True)
 '''
 
-while True:
-    send_message('انلاین در ورسل هستم!')
-    time.sleep(300)
