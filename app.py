@@ -18,7 +18,9 @@ def home():
     return str(timestamp)
 
 @app.route('/sign')
-    get_single_account()
+def sign():
+    result = get_single_account()  # فراخوانی تابع ایمپورت شده
+    return result
 
 if __name__ == '__main__':
     app.run(debug=True)
